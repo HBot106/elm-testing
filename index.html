@@ -15,9 +15,11 @@
   <body>
     <div id="elm-app-is-loaded-here"></div>
     
-    <script src="javascript/signup.js"></script>
+    <!-- Change js file path -->
+    <script src="javascript/hangman.js"></script>
     <script>
-      var app = Elm.Signup.init({
+      // Change elm Module entry point
+      var app = Elm.Hangman.init({
         node: document.getElementById("elm-app-is-loaded-here")
       });      
     </script>
